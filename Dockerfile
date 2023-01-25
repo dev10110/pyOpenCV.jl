@@ -6,4 +6,6 @@ RUN tar zxvf julia-1.8.5-linux-x86_64.tar.gz
 
 ENV PATH="$PATH:/root/julia-1.8.5/bin"
 
+RUN apt-get update && apt-get install shotwell --no-install-recommends -y
+
 CMD "/bin/bash"
