@@ -6,5 +6,4 @@ RUN tar zxvf julia-1.8.5-linux-x86_64.tar.gz
 
 ENV PATH="$PATH:/root/julia-1.8.5/bin"
 
-
 CMD "/bin/bash"
